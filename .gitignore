@@ -1,0 +1,54 @@
+# CMake build artifacts
+build/
+out/
+x64/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeSettings.json
+Testing/
+Makefile
+compile_commands.json
+*.cmake
+CADsystem/
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pdb
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+
+# IDE and editor metadata
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.vcxproj.*
+*.vcxproj
+*.slnx
+
+# Coverage and test outputs
+coverage/
+*.gcda
+*.gcno
+*.gcov
